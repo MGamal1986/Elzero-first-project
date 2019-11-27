@@ -1,0 +1,669 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    background-color:rgb(226,226,226);
+    height:3500px
+}
+
+/* Start aside.navbar style */
+aside.navbar,.all{
+    float:right;
+}
+aside.navbar{
+    width:15%;
+    background-color: rgb(249,249,249)
+}
+section.all{
+    width:calc(100% - 15%);
+}
+
+aside.navbar a.link{
+    text-decoration:none;
+    padding: 17px 33px;
+    color:#000;
+    display:block;
+    height:60px;
+    direction:rtl;
+    text-transform: capitalize;
+}
+aside.navbar  div.content{
+    position:relative;
+    top:-36px;
+    left:-195px;
+    width:0;
+    height:60px;
+    z-index:999;
+    overflow: hidden;
+    background-color:#fff;
+    cursor:default
+}
+
+aside.navbar  div.content > div:first-child{
+    width:25%;
+    height:100%
+}
+aside.navbar  div.content > div:nth-child(2){
+    width:75%;
+    height:100%; 
+}
+aside.navbar  div.content > div p{
+    position: relative;
+    top: 50%;
+    right: 113px;
+    width: 108px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+aside.navbar  div.content > div p:hover{
+    text-decoration:underline;
+    cursor:pointer
+}
+aside.navbar  div.content > div > img{
+    width:100%;
+    height:60px;
+}
+
+
+/* End aside.navbar style*/
+
+/* Start header style*/
+section.all div.top div.container_right{
+    background-color: rgb(233,233,233);
+}
+section.all div.top header #top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+section.all div.top header #top > div{
+    height:50px;
+    width:30%;
+    font-size:0;
+    padding-top:20px;
+}
+section.all div.top header #top > div i{
+    margin-left:10px
+}
+section.all div.top header #top > div.curency{
+    padding-left:20px
+}
+section.all div.top header #top > div.curency > div{
+    display:inline-block;
+    height:100%;
+}
+section.all div.top header #top > div.curency > div:last-child{
+    margin-left:10px
+}
+
+section.all div.top header #top > div.curency > div > span:first-child{
+    top:-1px
+}
+section.all div.top header #top > div.social{
+    color:rgba(0,0,0,.2);
+}
+section.all div.top header #top > div.social > i:hover{
+    color:#000;
+    cursor:pointer 
+}
+section.all div.top header #top div.author {
+    padding-right:20px
+}
+section.all div.top header #top div.author > span:first-child{
+    margin-right:5px
+}
+section.all div.top section.users{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 300px;
+}
+section.all div.top section.users > div{
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+}
+section.all div.top section.users > div.first > div,
+section.all div.top section.users > div.third > div{
+    float:left;
+    width:50%;
+    height:100%
+}
+section.all div.top section.users > div.first > div p,
+section.all div.top section.users > div.third > div p{
+    margin-left:-10px
+}
+section.all div.top section.users > div.first > div.image img,
+section.all div.top section.users > div.third > div.image img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+section.all div.top section.users > div.second h1,
+section.all div.top section.users > div.second p{
+    text-transform:capitalize;
+    padding-bottom:10px
+}
+section.all div.top section.users > div.second h1{
+    font-size:3em
+}
+section.all div.top section.users > div.second > div > p img{
+  position:relative;
+  top:3px
+}
+section.all div.top section.users > div.second > div > p .fa-circle{
+    font-size:6px;
+    position: relative;
+    top: -5px;
+    left: -3px;
+}
+
+
+/* End header style*/
+
+/* Start main content style*/
+section.all div.center div.container_right > div{
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    background-color:rgb(233,233,233);
+    height: 1100px;
+    overflow: hidden;
+}
+
+section.all .content-center{
+    background-color:#e9e9e9;
+}
+section.all div.center div.container_right > div:nth-of-type(2){
+    -ms-flex-preferred-size:50% !important;
+        flex-basis:50% !important;
+}
+section.all div.center div.container_right > div:first-child > div{
+    height:295px;
+    width:100%; 
+}
+
+section.all div.center div.container_right > div:first-child div.one{
+    background-image: url(../images/plane_crash3.jpg);
+    background-size:100% 100%;
+    color:#fff;
+    text-transform: capitalize;
+}
+section.all div.center div.container_right > div:first-child div.one h4{
+    padding-top:200px
+}
+section.all div.center div.container_right > div:first-child div.one p{
+    padding:10px 20px 0;
+}
+section.all div.center div.container_right > div:first-child div.two{
+    padding: 15px;
+}
+section.all div.center div.container_right > div:first-child div.two p{
+    margin-bottom:14px;
+    font-weight:bold
+}
+section.all div.center div.container_right > div:first-child div.three{
+    border-top:1px solid rgba(0,0,0,.2);
+    padding:20px;
+}
+section.all div.center div.container_right > div:first-child div.eagle img{
+    width:100%;
+    height:189px
+}
+section.all div.center div.container_right > div:first-child div.three p{
+    margin-top:10px
+}
+section.all div.center div.container_right > div:first-child div.three p > span:not(:first-child){
+    margin-left:10px
+}
+section.all div.center div.container_right > div:first-child div.three .fa-comments{
+    color:rgb(177,18,23)
+}
+section.all div.center div.container_right > div:first-child div.three .fa-clock-o{
+    color:rgba(0,0,0,0.4)
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up{
+   background-image:url(../images/blur_stree.jpg);
+   background-size:100% 100%;
+   color:#fff;
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up::before{
+    content: '';
+    display: block;
+    width: 125px;
+    height: 3px;
+    background-color:red;
+    position: relative;
+    top: 275px;
+    left:37px
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up > p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    padding: 0 35px;
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.date{
+    margin-bottom:15px;
+    padding: 0 35px;
+
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.date > span{
+    opacity:0.7
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.date > span:not(:first-child){
+    margin-left:10px
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.between{
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.between p{
+    padding: 10px 35px;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.lower > span{
+    display:inline-block;
+    padding:34px;
+    width:50%
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.lower > span:first-child{
+    border-right:1px solid #777;
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.up div.lower > span i{
+    margin-left:104px;
+    margin-right:4px;
+    color:rgb(177,18,23);
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down{
+    border-left:1px solid rgba(0,0,0,.2);
+    border-right:1px solid rgba(0,0,0,.2);
+    height: 100%;
+} 
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div{
+    display:inline-block;
+    width:50%
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div.officer img{
+    width:100%;
+    height:189px
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div.officer:first-child{
+    border-left:1px solid rgba(0,0,0,.2);
+    height: 100%;
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div.officer{
+    padding:20px;
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div.officer p{
+    margin-top:10px
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div.officer p > span:not(:first-child){
+    margin-left:10px
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div.officer .fa-comments{
+    color:rgb(177,18,23)
+}
+section.all div.center div.container_right > div:nth-of-type(2) > div.down > div.officer .fa-clock-o{
+    color:rgba(0,0,0,0.4)
+}
+section.all div.center div.container_right .clock .head{
+    background-color:rgb(144,128,128);
+    padding: 25px 5px;
+    color:#fff;
+}
+section.all div.center div.container_right .clock .head h4{
+    margin-bottom: 15px;
+    text-transform: capitalize
+}
+section.all div.center div.container_right .clock .head p{
+    margin:15px auto;
+    width:70%
+}
+section.all div.center div.container_right .clock .head > div.progress {
+    font-size:0;
+    margin-top:15px
+}
+section.all div.center div.container_right .clock .head > div.progress > span{
+    display:inline-block;
+    width:30px;
+    height:2px;
+    background-color:#fff;
+    margin-right:4px
+}
+section.all div.center div.container_right .clock .head .fa-clock-o{
+    margin:0 10px
+}
+section.all div.center div.container_right .clock .sub-head{
+    background-color:rgb(233,233,233)
+}
+section.all div.center div.container_right .clock .sub-head > div:first-child{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    text-transform: capitalize;
+    font-weight:bold
+}
+section.all div.center div.container_right .clock .sub-head .item{
+    padding: 15px
+}
+section.all div.center div.container_right .clock .sub-head .item p{
+    margin-bottom: 7px;
+    font-weight:bold
+}
+section.all div.center div.container_right .clock .sub-head .item > span {
+    text-transform: capitalize;
+}
+section.all div.center div.container_right .clock .sub-head .item .fa-clock-o{
+    margin: 0 5px 0 11px;
+    color:rgba(0,0,0,0.3)
+}
+section.all div.center div.container_right .clock .btn{
+    margin-top: 20px
+}
+section.all div.center div.container_right .clock button{
+    padding:15px 20px;
+    border:1px solid #fff;
+    border-radius: 15px;
+}
+/* start bottom style*/
+
+section.all .bottom .container_fluid{
+    background-color:rgb(241,241,241)
+}
+section.all .bottom .fire > div:not(:last-child){
+    float:left;
+}
+section.all .bottom div.google{
+    width:5%;
+    background-color:rgb(177,18,23);
+    height:1048px;
+}
+section.all .bottom div.google > span{
+    display:block;
+    cursor:pointer;
+    -webkit-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+section.all .bottom div.google > span:first-of-type{
+    color:#fff;
+    margin-top:30px;
+    font-size:30px;
+    margin-left:9px;
+}
+section.all .bottom div.google > span:nth-of-type(2){
+    color:#fff;
+    font-size:15px;
+    margin-top: 25px;
+}
+section.all .bottom div.google > span:nth-of-type(3){
+    color:#fff;
+    font-size:15px;
+    margin-top: 25px;
+}
+section.all .bottom div.google > span:last-of-type{
+    color:#fff;
+    font-size:15px;
+    margin-top: 825px;
+}
+section.all .bottom .fire > div.volcano{
+    height:660px;
+    background-image:url(../images/volcano.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width:613px;
+    color:#fff
+}
+section.all .bottom .fire > div.volcano h4{
+    width: 410px;
+    margin-top: 400px;
+    padding-left: 40px;
+    font-size:48px
+}
+
+section.all .bottom .fire > div.volcano div.nov{
+    padding: 20px 0 20px 40px;
+}
+section.all .bottom .fire > div.volcano div > span:first-of-type{
+    font-size:16px
+}
+section.all .bottom .fire > div.volcano div > i{
+    font-size:16px
+}
+section.all .bottom .fire > div.volcano div > span:nth-of-type(2){
+    font-size:16px
+}
+section.all .bottom .fire > div.volcano div > span:last-of-type{
+    font-size:16px
+}
+section.all .bottom .fire > div.volcano p{
+    padding: 20px 40px 0 40px;
+}
+section.all .bottom .fire > div.camera{
+    width:161px;
+    height:660px;
+    background-image:-webkit-gradient(linear,left bottom, left top,from(rgb(45,53,67)),to(rgb(85,103,126)));
+    background-image:linear-gradient(to top,rgb(45,53,67),rgb(85,103,126));
+}
+section.all .bottom .fire > div.camera > div{
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+}
+section.all .bottom .fire > div.camera > div > img{
+    display:block;
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+}
+section.all .bottom .fire > div.camera .overlay{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    left: 41px;
+    top: -26px;
+    background-color:rgba(0,0,0,0.2);
+    color:rgba(255,255,255,0.8);
+    -webkit-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    z-index:10
+}
+section.all .bottom .fire > div.camera .overlay:hover{
+    color:#fff;
+    background-color:transparent;
+    cursor:pointer;
+
+}
+section.all .bottom .fire > div.camera > div > p{
+    color:#fff;
+    position:relative;
+    padding: 0 10px;
+}
+
+section.all .bottom .fire > div.camera button{
+    padding: 8px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(41,48,59);
+    color:rgba(255,255,255,0.5);
+    text-transform: capitalize;
+    -webkit-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out
+    }
+section.all .bottom .fire > div.camera button:hover{
+    cursor:pointer;
+    color:#fff
+}
+section.all .bottom .fire > div.camoe{
+    width:451px;
+    height:660px;
+    background-color:#fff;
+}
+section.all .bottom .fire > div.camoe > h4{
+    text-transform: capitalize;
+    padding: 20px 0 20px 20px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1)
+}
+section.all .bottom .fire > div.camoe:not(.not){
+    color:#696969
+}
+section.all .bottom .fire > div.camoe > div h5{
+    padding: 40px 20px 20px 20px;
+    text-transform: capitalize;
+    font-size:18px
+}
+section.all .bottom .fire > div.camoe  div.spn{
+    padding: 1px 0 0 20px;
+}
+section.all .bottom .fire > div.camoe  div.spn span{
+    padding-right: 4px
+}
+section.all .bottom .fire > div.camoe > div p{
+    padding: 10px 20px 10px 20px;
+}
+section.all .bottom .news-box{
+    background-color:rgb(241,241,241);
+    padding:35px 
+}
+section.all .bottom .news-box .box{
+    width:20%;
+    margin:0 2.5% 20px 2.5%;
+    height:400px;
+    background-color:#fff;
+}
+section.all .bottom .news-box .box .image{
+    height:50%
+}
+section.all .bottom .news-box .box .image img{
+    width:100%;
+    height:100%
+}
+section.all .bottom .news-box .box h3{
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+section.all .bottom .news-box .box .span{
+    padding: 10px;
+    text-transform: capitalize;
+    color:#666;
+}
+section.all .bottom .news-box .box .span span{
+    margin-right: 5px;
+}
+section.all .bottom .news-box .box p{
+    padding: 10px;
+    text-transform: capitalize;
+    color:#666;
+}
+section.all .bottom .news-box button{
+    text-transform: capitalize;
+    margin: auto;
+    display: block;
+    padding: 15px 20px;
+    background-color:transparent;
+    border: 1px solid#ccc;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor:pointer;
+    transition:all 0.5s ease-in-out
+}
+section.all .bottom .news-box button:hover{
+    background-color:rgb(177,18,23) ;
+    color:#fff  
+}
+section.all .bottom footer{
+    
+    background-color:#000;
+    color:#ddd
+}
+section.all .bottom footer ul.head{
+    border-bottom:1px solid rgba(255,255,255,0.4)
+}
+section.all .bottom footer ul.head li{
+    display: inline-block;
+    margin: 0 30px;
+}
+section.all .bottom footer ul.head li a{
+    color:#ddd;
+    text-decoration: none;
+    padding: 35px 40px;
+    display: inline-block;;
+    transition: all 0.5s ease-in-out;
+}
+section.all .bottom footer ul.head li a:hover{
+    background-color:#ddd;
+    color:#000
+}
+section.all .bottom footer h1{
+    padding: 40px 0 20px 0;
+    text-transform: lowercase;
+}
+section.all .bottom footer h1 ~ p{
+    padding: 20px 0 40px 0;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+}
+section.all .bottom footer .sponsor{
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 20px;
+}
+section.all .bottom footer .sponsor > div {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    margin: 0 20px;
+}
+section.all .bottom footer .sponsor > div img{
+    width:100%;
+    height:100%;
+    filter:brightness(0.5)
+}
+section.all .bottom footer .user-rights{
+    padding:20px 31px;
+    color:#666
+}
+
+section.all .bottom footer .user-rights span{
+    flex-basis: 15%;
+    line-height: 60px;
+    font-size: 29px;
+    font-weight: bold;
+    
+}
+section.all .bottom footer .user-rights span:first-child{
+    color:#fff
+}
+section.all .bottom footer .user-rights p{
+    flex-basis:70%
+}
+/* End bottom style*/
+/* section.all section.content{
+    width:100%;
+    height:800px;
+}
+section.all section.content div.fire{
+    height:200px
+}
+section.all section.content div.poten{
+    height:200px
+}
+section.all section.content footer{
+    height:400px;
+    background-color:#000
+} */
+/* End main content style*/

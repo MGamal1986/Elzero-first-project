@@ -1,0 +1,149 @@
+/* main rules */
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* clear fix class */
+.clearFix{
+    clear:both;
+}
+/*container class  */
+.container{
+    width:95%;
+    margin:auto
+}
+.container_right{
+    width:95%;
+    margin-right: 0;
+}
+.container_left{
+    width:95%;
+    margin-left: 0;
+}
+.container_fluid{
+    width:100%
+}
+/* UL reset Class */
+.ul_reset{
+    list-style:none !important;
+}
+.rtl{
+    direction: rtl !important;
+}
+.ltr{
+    direction:ltr !important;
+}
+.color_black{
+    color:#000 !important;
+}
+.bold{
+    font-weight:bold
+}
+.cricle-red-5{
+    display:inline-block;
+    width:5px;
+    height:5px;
+    background-color:red;
+    border-radius:50%;
+    position:relative
+}
+.cricle-blue-5{
+    display:inline-block;
+    width:5px;
+    height:5px;
+    background-color:#74b9ff;
+    border-radius:50%;
+    position:relative
+}
+.left{
+    text-align: left !important;
+}
+.center{
+    text-align: center !important;
+}
+.right{
+    text-align: right !important;
+}
+/* font size classes */
+.font_size_zero{
+    font-size:0
+}
+.size-16px{
+    font-size: 16px !important;
+}
+.size-12px{
+    font-size: 12px !important;
+}
+.size-2em{
+    font-size: 2em !important;
+}
+/* vertical and horizontal alig in center */
+.ver-hor-align{
+    position:relative;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+            transform:translate(-50%,-50%);
+}
+/* float left class */
+.float_left{
+    float:left !important;
+}
+/* flex box classes */
+.flex_row_center{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.flex_col_start{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.flex_row_space_around{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.inline_block{
+    display:inline-block !important;
+}
+
+.color_white{
+    color:#fff !important
+}
+/* horizonta line */
+
+.hor_full::before{
+    content:"";
+    display:inline-block;
+    width:100%;
+    height:1px;
+    background-color:rgba(255,255,255,0.2)
+}
+
+/* increase height of div */
